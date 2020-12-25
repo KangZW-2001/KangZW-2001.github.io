@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>KangZW&#39;s Blog</title>
+  
+  <subtitle>记录一些日常生活和学习日志</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2020-12-25T14:42:05.912Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>康子文</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2020/12/25/hello-world/"/>
+    <id>http://example.com/2020/12/25/hello-world/</id>
+    <published>2020-12-25T14:42:05.912Z</published>
+    <updated>2020-12-25T14:42:05.912Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    <category term="分类2" scheme="http://example.com/categories/%E5%88%86%E7%B1%BB2/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>第一篇博客</title>
+    <link href="http://example.com/2020/12/25/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://example.com/2020/12/25/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
+    <published>2020-12-25T14:00:47.000Z</published>
+    <updated>2020-12-25T14:30:42.101Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;##Matlab的使用和安装&lt;/p&gt;
+&lt;p&gt;  Matlab是由MathWorks开发的。。。。。。。&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="Matlab" scheme="http://example.com/categories/Matlab/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>The first test blog</title>
+    <link href="http://example.com/2020/12/24/The-first-test-blog/"/>
+    <id>http://example.com/2020/12/24/The-first-test-blog/</id>
+    <published>2020-12-24T15:14:47.000Z</published>
+    <updated>2020-12-24T16:05:31.426Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;第一章&quot;&gt;&lt;a href=&quot;#第一章&quot; class=&quot;headerlink&quot; title=&quot;第一章&quot;&gt;&lt;/a&gt;第一章&lt;/h2&gt;&lt;p&gt;内容&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;第二章&quot;&gt;&lt;a href=&quot;#第二章&quot; class=&quot;headerlink&quot; title=&quot;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
