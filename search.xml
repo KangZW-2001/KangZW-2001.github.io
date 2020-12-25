@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>测试图片</title>
-    <url>/2020/12/26/%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87/</url>
-    <content><![CDATA[<p><img src="/.com//avatar.jpg" alt="头像"></p>
-<p>用来测试图片的博客。</p>
+    <title>pic</title>
+    <url>/2020/12/26/pic/</url>
+    <content><![CDATA[<p><img src="/pic/avatar.jpg"></p>
+<p>用来测试图片</p>
 ]]></content>
       <tags>
-        <tag>Java</tag>
+        <tag>Matlab</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>testPic</title>
+    <url>/2020/12/26/testPic/</url>
+    <content><![CDATA[<img src="/2020/12/26/testPic/avatar.jpg" class title="This is an example image">
+
+<p>测试图片是否正常显示</p>
+]]></content>
   </entry>
   <entry>
     <title>第一篇博客</title>
