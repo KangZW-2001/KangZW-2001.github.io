@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-12-25T18:37:54.103Z</updated>
+  <updated>2020-12-26T13:53:25.343Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MatLab-1</title>
+    <link href="http://example.com/2020/12/26/MatLab-1/"/>
+    <id>http://example.com/2020/12/26/MatLab-1/</id>
+    <published>2020-12-26T10:56:22.000Z</published>
+    <updated>2020-12-26T13:53:25.343Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;Matlab介绍&quot;&gt;&lt;a href=&quot;#Matlab介绍&quot; class=&quot;headerlink&quot; title=&quot;Matlab介绍&quot;&gt;&lt;/a&gt;Matlab介绍&lt;/h1&gt;&lt;h3 id=&quot;何为Matlab&quot;&gt;&lt;a href=&quot;#何为Matlab&quot; class=&quot;headerlink&quot; title=&quot;何为Matlab&quot;&gt;&lt;/a&gt;何为Matlab&lt;/h3&gt;&lt;p&gt;Matlab是由美国MathWorks公司开发的一种编程语言，其最初是一个矩阵的编程语言，使线性代数的运算变得简单。现多用于算法开发、数据可视化、数据分析等多个场景。主要包括Matlab和Simulink两部分。Matlab拥有众多的内置命令和数学函数。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Matlab" scheme="http://example.com/categories/Matlab/"/>
+    
+    
+    <category term="Matlab" scheme="http://example.com/tags/Matlab/"/>
+    
+  </entry>
   
   <entry>
     <title>testPic</title>
@@ -42,12 +61,12 @@
     <link href="http://example.com/2020/12/26/pic/"/>
     <id>http://example.com/2020/12/26/pic/</id>
     <published>2020-12-25T18:18:47.000Z</published>
-    <updated>2020-12-25T18:19:37.782Z</updated>
+    <updated>2020-12-26T13:48:12.800Z</updated>
     
     
       
       
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/pic/avatar.jpg&quot;&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2020/12/26/pic/avatar.jpg&quot;&gt;&lt;/p&gt;
 &lt;p&gt;用来测试图片&lt;/p&gt;
 </summary>
       
