@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-12-26T13:53:25.343Z</updated>
+  <updated>2020-12-26T16:27:11.143Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,53 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>图像处理-1</title>
+    <link href="http://example.com/2020/12/26/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-1/"/>
+    <id>http://example.com/2020/12/26/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-1/</id>
+    <published>2020-12-26T14:09:34.000Z</published>
+    <updated>2020-12-26T16:27:11.143Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;数字图像基础&quot;&gt;&lt;a href=&quot;#数字图像基础&quot; class=&quot;headerlink&quot; title=&quot;数字图像基础&quot;&gt;&lt;/a&gt;数字图像基础&lt;/h1&gt;&lt;h3 id=&quot;视觉感知要素&quot;&gt;&lt;a href=&quot;#视觉感知要素&quot; class=&quot;headerlink&quot; titl</summary>
+      
+    
+    
+    
+    <category term="图像处理课程" scheme="http://example.com/categories/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%E8%AF%BE%E7%A8%8B/"/>
+    
+    
+    <category term="Matlab" scheme="http://example.com/tags/Matlab/"/>
+    
+    <category term="课程" scheme="http://example.com/tags/%E8%AF%BE%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Matlab-2</title>
+    <link href="http://example.com/2020/12/26/Matlab-2/"/>
+    <id>http://example.com/2020/12/26/Matlab-2/</id>
+    <published>2020-12-26T14:02:22.000Z</published>
+    <updated>2020-12-28T09:58:34.472Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Matlab基本语法&quot;&gt;&lt;a href=&quot;#Matlab基本语法&quot; class=&quot;headerlink&quot; title=&quot;Matlab基本语法&quot;&gt;&lt;/a&gt;Matlab基本语法&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;在Matlab环境下进行的操作就像是使用一个超级复</summary>
+      
+    
+    
+    
+    <category term="Matlab" scheme="http://example.com/categories/Matlab/"/>
+    
+    
+    <category term="Matlab" scheme="http://example.com/tags/Matlab/"/>
+    
+  </entry>
   
   <entry>
     <title>MatLab-1</title>
@@ -36,66 +83,22 @@
   </entry>
   
   <entry>
-    <title>testPic</title>
-    <link href="http://example.com/2020/12/26/testPic/"/>
-    <id>http://example.com/2020/12/26/testPic/</id>
-    <published>2020-12-25T18:29:28.000Z</published>
-    <updated>2020-12-25T18:37:54.103Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;img src=&quot;/2020/12/26/testPic/avatar.jpg&quot; class title=&quot;This is an example image&quot;&gt;
-
-&lt;p&gt;测试图片是否正常显示&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>pic</title>
-    <link href="http://example.com/2020/12/26/pic/"/>
-    <id>http://example.com/2020/12/26/pic/</id>
-    <published>2020-12-25T18:18:47.000Z</published>
-    <updated>2020-12-26T13:48:12.800Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2020/12/26/pic/avatar.jpg&quot;&gt;&lt;/p&gt;
-&lt;p&gt;用来测试图片&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    
-    <category term="Matlab" scheme="http://example.com/tags/Matlab/"/>
-    
-  </entry>
-  
-  <entry>
     <title>第一篇博客</title>
     <link href="http://example.com/2020/12/25/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
     <id>http://example.com/2020/12/25/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
     <published>2020-12-25T14:00:47.000Z</published>
-    <updated>2020-12-25T14:30:42.101Z</updated>
+    <updated>2020-12-28T10:02:59.528Z</updated>
     
     
       
       
-    <summary type="html">&lt;p&gt;##Matlab的使用和安装&lt;/p&gt;
-&lt;p&gt;  Matlab是由MathWorks开发的。。。。。。。&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;hr&gt;
+&lt;h3 id=&quot;使图片正常显示&quot;&gt;&lt;a href=&quot;#使图片正常显示&quot; class=&quot;headerlink&quot; title=&quot;使图片正常显示&quot;&gt;&lt;/a&gt;使图片正常显示&lt;/h3&gt;&lt;p&gt;使用 &lt;strong&gt;! [] (在这里输入图片在同名文件夹下的名字即可)&lt;/strong</summary>
       
     
     
     
-    <category term="Matlab" scheme="http://example.com/categories/Matlab/"/>
+    <category term="随笔" scheme="http://example.com/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
   </entry>

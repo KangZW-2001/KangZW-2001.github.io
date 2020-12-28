@@ -43,31 +43,92 @@
       </tags>
   </entry>
   <entry>
-    <title>pic</title>
-    <url>/2020/12/26/pic/</url>
-    <content><![CDATA[<p><img src="/2020/12/26/pic/avatar.jpg"></p>
-<p>用来测试图片</p>
-]]></content>
+    <title>Matlab-2</title>
+    <url>/2020/12/26/Matlab-2/</url>
+    <content><![CDATA[<h1 id="Matlab基本语法"><a href="#Matlab基本语法" class="headerlink" title="Matlab基本语法"></a>Matlab基本语法</h1><blockquote>
+<p>在Matlab环境下进行的操作就像是使用一个超级复杂的计算器。</p>
+<p>Matlab本身是一种解释型的环境，也就是说，只要你给Matlab一个命令，它就会马上开始执行。而不同于C++和Java一样会先进行编译再执行。</p>
+</blockquote>
+<hr>
+<h3 id="一些简单的例子"><a href="#一些简单的例子" class="headerlink" title="一些简单的例子"></a>一些简单的例子</h3><p>在”&gt;&gt;”命令提示符下键入一个有效的表达，例如：</p>
+<p><code> 5 + 5</code> 然后按Enter键，当点击 <strong>执行</strong>按钮，或者按<strong>Ctrl + E</strong> ，Matlab将返回它执行的结果：<code>ans = 10</code>。</p>
+<!-- more --s>
+
+`3 ^ 2` 会得到结果：`ans = 9`。
+
+`sin(pi/2)` 会得到结果：`ans = 1`。
+
+`7/0` 会得到结果：`ans = Inf`（表示该结果是无穷大）
+
+`732 * 20.3` 会得到结果 `ans = 1.4860e+04`（科学计数法）
+
+---
+
+### Matlab常用的运算符和特殊字符
+
+Matlab提供了一些特殊的数学符号的表达，像**圆周率(pi)、无穷(Inf)、复数(i或j代表$\sqrt{-1}$)、不是一个数字(Nan)等**
+
+具体参照下表：
+
+| 运算符 |               目的               |
+| :----: | :------------------------------: |
+|   +    |          加；加法运算符          |
+|   -    |          减；减法运算符          |
+|   *    |     **标量和矩阵乘法运算符**     |
+|   .*   |        **数组乘法运算符**        |
+|   ^    |     **标量和矩阵求幂运算符**     |
+|   .^   |        **数组求幂运算符**        |
+|   \    |           **矩阵左除**           |
+|   .\   |           **阵列左除**           |
+|   /    |           **矩阵右除**           |
+|   ./   |           **阵列右除**           |
+|   :    |        向量生成；子阵提取        |
+|   ()   |        下标运算；参数定义        |
+|   []   |             矩阵生成             |
+|   .    | 点乘运算，一般与其他符号配合使用 |
+|  ...   |      续行标志；行连续运算符      |
+|   ,    |              分行符              |
+|   ;    |                                  |
+|   %    |                                  |
+|   _    |                                  |
+|   ._   |                                  |
+|   =    |                                  |
+
+
+
+
+
+
+
+-->]]></content>
+      <categories>
+        <category>Matlab</category>
+      </categories>
       <tags>
         <tag>Matlab</tag>
       </tags>
   </entry>
   <entry>
-    <title>testPic</title>
-    <url>/2020/12/26/testPic/</url>
-    <content><![CDATA[<img src="/2020/12/26/testPic/avatar.jpg" class title="This is an example image">
-
-<p>测试图片是否正常显示</p>
-]]></content>
+    <title>图像处理-1</title>
+    <url>/2020/12/26/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-1/</url>
+    <content><![CDATA[<h1 id="数字图像基础"><a href="#数字图像基础" class="headerlink" title="数字图像基础"></a>数字图像基础</h1><h3 id="视觉感知要素"><a href="#视觉感知要素" class="headerlink" title="视觉感知要素"></a>视觉感知要素</h3><h4 id="人眼的结构"><a href="#人眼的结构" class="headerlink" title="人眼的结构"></a>人眼的结构</h4>]]></content>
+      <categories>
+        <category>图像处理课程</category>
+      </categories>
+      <tags>
+        <tag>Matlab</tag>
+        <tag>课程</tag>
+      </tags>
   </entry>
   <entry>
     <title>第一篇博客</title>
     <url>/2020/12/25/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p>##Matlab的使用和安装</p>
-<p>  Matlab是由MathWorks开发的。。。。。。。</p>
+    <content><![CDATA[<hr>
+<h3 id="使图片正常显示"><a href="#使图片正常显示" class="headerlink" title="使图片正常显示"></a>使图片正常显示</h3><p>使用 <strong>! [] (在这里输入图片在同名文件夹下的名字即可)</strong></p>
+<p>注意上述的 <strong>!</strong> 和 <strong>[]</strong> 和 <strong>()</strong> 是相连的，中间没有空格，且显示的时候在 Typora 中可能无法正常显示，但是在网页中是可以正常显示的。 </p>
 ]]></content>
       <categories>
-        <category>Matlab</category>
+        <category>随笔</category>
       </categories>
   </entry>
 </search>
