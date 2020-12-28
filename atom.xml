@@ -45,14 +45,16 @@
     <link href="http://example.com/2020/12/26/Matlab-2/"/>
     <id>http://example.com/2020/12/26/Matlab-2/</id>
     <published>2020-12-26T14:02:22.000Z</published>
-    <updated>2020-12-28T09:58:34.472Z</updated>
+    <updated>2020-12-28T10:04:53.821Z</updated>
     
     
-      
-      
     <summary type="html">&lt;h1 id=&quot;Matlab基本语法&quot;&gt;&lt;a href=&quot;#Matlab基本语法&quot; class=&quot;headerlink&quot; title=&quot;Matlab基本语法&quot;&gt;&lt;/a&gt;Matlab基本语法&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;在Matlab环境下进行的操作就像是使用一个超级复</summary>
-      
+&lt;p&gt;在Matlab环境下进行的操作就像是使用一个超级复杂的计算器。&lt;/p&gt;
+&lt;p&gt;Matlab本身是一种解释型的环境，也就是说，只要你给Matlab一个命令，它就会马上开始执行。而不同于C++和Java一样会先进行编译再执行。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;一些简单的例子&quot;&gt;&lt;a href=&quot;#一些简单的例子&quot; class=&quot;headerlink&quot; title=&quot;一些简单的例子&quot;&gt;&lt;/a&gt;一些简单的例子&lt;/h3&gt;&lt;p&gt;在”&amp;gt;&amp;gt;”命令提示符下键入一个有效的表达，例如：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt; 5 + 5&lt;/code&gt; 然后按Enter键，当点击 &lt;strong&gt;执行&lt;/strong&gt;按钮，或者按&lt;strong&gt;Ctrl + E&lt;/strong&gt; ，Matlab将返回它执行的结果：&lt;code&gt;ans = 10&lt;/code&gt;。&lt;/p&gt;</summary>
     
     
     
@@ -87,14 +89,13 @@
     <link href="http://example.com/2020/12/25/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
     <id>http://example.com/2020/12/25/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
     <published>2020-12-25T14:00:47.000Z</published>
-    <updated>2020-12-28T10:02:59.528Z</updated>
+    <updated>2020-12-28T10:09:23.407Z</updated>
     
     
-      
-      
-    <summary type="html">&lt;hr&gt;
-&lt;h3 id=&quot;使图片正常显示&quot;&gt;&lt;a href=&quot;#使图片正常显示&quot; class=&quot;headerlink&quot; title=&quot;使图片正常显示&quot;&gt;&lt;/a&gt;使图片正常显示&lt;/h3&gt;&lt;p&gt;使用 &lt;strong&gt;! [] (在这里输入图片在同名文件夹下的名字即可)&lt;/strong</summary>
-      
+    <summary type="html">&lt;h3 id=&quot;使图片正常显示&quot;&gt;&lt;a href=&quot;#使图片正常显示&quot; class=&quot;headerlink&quot; title=&quot;使图片正常显示&quot;&gt;&lt;/a&gt;使图片正常显示&lt;/h3&gt;&lt;p&gt;使用 &lt;strong&gt;! [] (在这里输入图片在同名文件夹下的名字即可)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;注意上述的 &lt;strong&gt;!&lt;/strong&gt; 和 &lt;strong&gt;[]&lt;/strong&gt; 和 &lt;strong&gt;()&lt;/strong&gt; 是相连的，中间没有空格，且显示的时候在 Typora 中可能无法正常显示，但是在网页中是可以正常显示的。 &lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;常用的hexo命令&quot;&gt;&lt;a href=&quot;#常用的hexo命令&quot; class=&quot;headerlink&quot; title=&quot;常用的hexo命令&quot;&gt;&lt;/a&gt;常用的hexo命令&lt;/h3&gt;</summary>
     
     
     
