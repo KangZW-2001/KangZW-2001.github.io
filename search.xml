@@ -1,48 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>MatLab-1</title>
-    <url>/2020/12/26/MatLab-1/</url>
-    <content><![CDATA[<h1 id="Matlab介绍"><a href="#Matlab介绍" class="headerlink" title="Matlab介绍"></a>Matlab介绍</h1><h3 id="何为Matlab"><a href="#何为Matlab" class="headerlink" title="何为Matlab"></a>何为Matlab</h3><p>Matlab是由美国MathWorks公司开发的一种编程语言，其最初是一个矩阵的编程语言，使线性代数的运算变得简单。现多用于算法开发、数据可视化、数据分析等多个场景。主要包括Matlab和Simulink两部分。Matlab拥有众多的内置命令和数学函数。</p>
-<a id="more"></a>
-
-<h3 id="Matlab有什么优势特点"><a href="#Matlab有什么优势特点" class="headerlink" title="Matlab有什么优势特点"></a>Matlab有什么优势特点</h3><ol>
-<li>高效的数值计算和符号计算功能，能使用户从繁杂的数学运算分析中解脱出来。</li>
-<li>广阔的线性代数、统计、傅里叶变换、筛选等数学函数库。</li>
-<li>具有完备的图形处理功能，实现计算结果和编程的可视化。</li>
-<li>友好的用户界面及接近数学表达式的自然化语言，使学者易于学习和掌握。</li>
-<li>功能丰富的应用工具箱(如信号处理工具箱、通信工具箱等) ，为用户提供了大量方便实用的处理工具。</li>
-<li>MATLAB的编程接口给开发工具，提高代码质量和可维护性和性能的最大化。</li>
-<li>它提供了基于MATLAB算法集成了C、Java、NET、和Excel等与外部应用程序和语言功能。</li>
-</ol>
-<h3 id="Matlab的用途"><a href="#Matlab的用途" class="headerlink" title="Matlab的用途"></a>Matlab的用途</h3><p>Matlab被广泛用来计算工具在科学和工程涵盖铃语物理、化学、数学和工程流。它在一定范围内的应用，包括：</p>
-<ul>
-<li>信号处理和通信</li>
-<li>图像和视频处理</li>
-<li>控制系统</li>
-<li>测试和测量</li>
-<li>计算金融</li>
-<li>计算生物学</li>
-</ul>
-<h1 id="Matlab安装"><a href="#Matlab安装" class="headerlink" title="Matlab安装"></a>Matlab安装</h1><p><a href="https://cn.mathworks.com/downloads/web_downloads">Matlab官方下载地址</a></p>
-<p>我们把Matlab主要的工作窗口称为桌面，启动之后，默认布局如下：</p>
-<p><img src="/2020/12/26/MatLab-1/matlab.PNG" alt="matlab默认工作窗口"></p>
-<p>Matlab桌面包含的面板如下：</p>
-<ul>
-<li>当前文件夹：此面板允许访问项目文件夹和文件</li>
-<li>命令窗口：这是主要区域，用户在命令行中输入命令，命令提示符(&gt;&gt;)。</li>
-<li>工作区：工作区显示所有创建的变量和/或从文件导入。</li>
-<li>命令历史记录：此面板显示或重新运行，在命令行中输入的命令。（可以在命令窗口中按<strong>箭头上键</strong>调出）</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Matlab</category>
-      </categories>
-      <tags>
-        <tag>Matlab</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Matlab-2</title>
     <url>/2020/12/26/Matlab-2/</url>
     <content><![CDATA[<h1 id="Matlab基本语法"><a href="#Matlab基本语法" class="headerlink" title="Matlab基本语法"></a>Matlab基本语法</h1><blockquote>
@@ -153,6 +111,112 @@
 <td align="center"></td>
 </tr>
 </tbody></table>
+]]></content>
+      <categories>
+        <category>Matlab</category>
+      </categories>
+      <tags>
+        <tag>Matlab</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>MatLab-1</title>
+    <url>/2020/12/26/MatLab-1/</url>
+    <content><![CDATA[<h1 id="Matlab介绍"><a href="#Matlab介绍" class="headerlink" title="Matlab介绍"></a>Matlab介绍</h1><h3 id="何为Matlab"><a href="#何为Matlab" class="headerlink" title="何为Matlab"></a>何为Matlab</h3><p>Matlab是由美国MathWorks公司开发的一种编程语言，其最初是一个矩阵的编程语言，使线性代数的运算变得简单。现多用于算法开发、数据可视化、数据分析等多个场景。主要包括Matlab和Simulink两部分。Matlab拥有众多的内置命令和数学函数。</p>
+<a id="more"></a>
+
+<h3 id="Matlab有什么优势特点"><a href="#Matlab有什么优势特点" class="headerlink" title="Matlab有什么优势特点"></a>Matlab有什么优势特点</h3><ol>
+<li>高效的数值计算和符号计算功能，能使用户从繁杂的数学运算分析中解脱出来。</li>
+<li>广阔的线性代数、统计、傅里叶变换、筛选等数学函数库。</li>
+<li>具有完备的图形处理功能，实现计算结果和编程的可视化。</li>
+<li>友好的用户界面及接近数学表达式的自然化语言，使学者易于学习和掌握。</li>
+<li>功能丰富的应用工具箱(如信号处理工具箱、通信工具箱等) ，为用户提供了大量方便实用的处理工具。</li>
+<li>MATLAB的编程接口给开发工具，提高代码质量和可维护性和性能的最大化。</li>
+<li>它提供了基于MATLAB算法集成了C、Java、NET、和Excel等与外部应用程序和语言功能。</li>
+</ol>
+<h3 id="Matlab的用途"><a href="#Matlab的用途" class="headerlink" title="Matlab的用途"></a>Matlab的用途</h3><p>Matlab被广泛用来计算工具在科学和工程涵盖铃语物理、化学、数学和工程流。它在一定范围内的应用，包括：</p>
+<ul>
+<li>信号处理和通信</li>
+<li>图像和视频处理</li>
+<li>控制系统</li>
+<li>测试和测量</li>
+<li>计算金融</li>
+<li>计算生物学</li>
+</ul>
+<h1 id="Matlab安装"><a href="#Matlab安装" class="headerlink" title="Matlab安装"></a>Matlab安装</h1><p><a href="https://cn.mathworks.com/downloads/web_downloads">Matlab官方下载地址</a></p>
+<p>我们把Matlab主要的工作窗口称为桌面，启动之后，默认布局如下：</p>
+<p><img src="/2020/12/26/MatLab-1/matlab.PNG" alt="matlab默认工作窗口"></p>
+<p>Matlab桌面包含的面板如下：</p>
+<ul>
+<li>当前文件夹：此面板允许访问项目文件夹和文件</li>
+<li>命令窗口：这是主要区域，用户在命令行中输入命令，命令提示符(&gt;&gt;)。</li>
+<li>工作区：工作区显示所有创建的变量和/或从文件导入。</li>
+<li>命令历史记录：此面板显示或重新运行，在命令行中输入的命令。（可以在命令窗口中按<strong>箭头上键</strong>调出）</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Matlab</category>
+      </categories>
+      <tags>
+        <tag>Matlab</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Matlab-3</title>
+    <url>/2020/12/28/Matlab-3/</url>
+    <content><![CDATA[<h1 id="Matlab变量"><a href="#Matlab变量" class="headerlink" title="Matlab变量"></a>Matlab变量</h1><blockquote>
+<p>每个Matlab变量可以是数组或者矩阵</p>
+</blockquote>
+<p>简单的使用<code>=</code>来指定变量，例如 <code>x=3</code> 就是创建了一个名为x的 <strong>1-1</strong> 的矩阵，并且将 3 存储在其中。</p>
+<p>或者例如 <code>x = sqrt(16)</code> 则是将 4 存储在其中。</p>
+<a id="more"></a>
+
+<h3 id="Matlab注意事项"><a href="#Matlab注意事项" class="headerlink" title="Matlab注意事项"></a>Matlab注意事项</h3><blockquote>
+<ol>
+<li>使用变量之前，必须进行赋值</li>
+<li>系统收到一个变量之后，这个变量可以被引用。</li>
+<li>当表达式返回一个结果，不分配给任何变量，系统就会分配一个名为ans的变量，以后可以继续使用。</li>
+</ol>
+</blockquote>
+<h3 id="Matlab可以给多个变量直接赋值"><a href="#Matlab可以给多个变量直接赋值" class="headerlink" title="Matlab可以给多个变量直接赋值"></a>Matlab可以给多个变量直接赋值</h3><p>多个任务可以在同一行，例如</p>
+<p><code>a = 2; b = 7; c = a * b</code></p>
+<p>Matlab将执行上面的语句，并返回以下结果：</p>
+<blockquote>
+<p>c = </p>
+<p>​        14</p>
+</blockquote>
+<h3 id="Matlab如何显示已经使用的变量名？"><a href="#Matlab如何显示已经使用的变量名？" class="headerlink" title="Matlab如何显示已经使用的变量名？"></a>Matlab如何显示已经使用的变量名？</h3><p>使用 <code>who</code> 命令可以显示所有已经使用的变量名。</p>
+<p>也可以使用 <code>whos</code> 命令来显示更多的和变量相关的信息：</p>
+<ol>
+<li>Name（变量名）</li>
+<li>Size （变量的大小，行数、列数等）</li>
+<li>Bytes</li>
+<li>Class</li>
+<li>Attributes</li>
+</ol>
+<p>使用 <code>clear</code> 命令删除所有的变量，或者 <code>clear var</code> 来删除指定的变量。</p>
+<h3 id="长任务"><a href="#长任务" class="headerlink" title="长任务"></a>长任务</h3><p>可以通过 <code>...</code> 来将命令延伸到下一行。</p>
+<h3 id="Matlab格式命令"><a href="#Matlab格式命令" class="headerlink" title="Matlab格式命令"></a>Matlab格式命令</h3><p>默认情况下，Matlab显示四个小数位值。也就是所谓的 <strong>short format</strong> ,如果想要更精确的话，需要使用format相关命令，例如，使用 <code>format long</code> 命令格式来显示小数点后16位。例如：</p>
+<p><img src="/2020/12/28/Matlab-3/format.PNG"></p>
+<p>也可以使用 <code>format bank</code> 来设置小数后两位的格式。</p>
+<p>同样可以使用如下命令来表示指数形式（科学计数法）的位数：</p>
+<blockquote>
+<ul>
+<li>format short e：表示指数形式显示小数后四位</li>
+<li>format long e：表示指数形式显示小数后16位</li>
+<li>format rat：可以给出最接近的有理表达式（<strong>分式形式</strong>）</li>
+</ul>
+</blockquote>
+<h3 id="Matlab创建向量"><a href="#Matlab创建向量" class="headerlink" title="Matlab创建向量"></a>Matlab创建向量</h3><blockquote>
+<p>向量是一维数组中的数字，Matlab允许创建两种类型的矢量：</p>
+<ul>
+<li>行向量</li>
+<li>列向量</li>
+</ul>
+</blockquote>
+<h4 id="1-创建行向量"><a href="#1-创建行向量" class="headerlink" title="1. 创建行向量"></a>1. 创建行向量</h4><p><code>r = [1 2 3 4 5]</code> 或者 <code>r = [1,2,3,4,5]</code> 都能得到一个 <strong>1-5</strong> 的行向量。</p>
+<h4 id="2-创建列向量"><a href="#2-创建列向量" class="headerlink" title="2. 创建列向量"></a>2. 创建列向量</h4><p><code>r = [1; 2; 3; 4; 5]</code> 可以创建一个 <strong>5-1</strong> 的列向量。</p>
+<h4 id="3-创建矩阵"><a href="#3-创建矩阵" class="headerlink" title="3. 创建矩阵"></a>3. 创建矩阵</h4><p><code>r = [1 2 3; 4 5 6; 7 8 9]</code> 会创建一个 <strong>3-3</strong> 的矩阵。其中使用空格或者逗号来区分列，使用分号来区分行。</p>
 ]]></content>
       <categories>
         <category>Matlab</category>

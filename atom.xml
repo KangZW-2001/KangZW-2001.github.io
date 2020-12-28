@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-12-26T16:27:11.143Z</updated>
+  <updated>2020-12-28T13:51:30.828Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Matlab-3</title>
+    <link href="http://example.com/2020/12/28/Matlab-3/"/>
+    <id>http://example.com/2020/12/28/Matlab-3/</id>
+    <published>2020-12-28T13:02:56.000Z</published>
+    <updated>2020-12-28T13:51:30.828Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;Matlab变量&quot;&gt;&lt;a href=&quot;#Matlab变量&quot; class=&quot;headerlink&quot; title=&quot;Matlab变量&quot;&gt;&lt;/a&gt;Matlab变量&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;每个Matlab变量可以是数组或者矩阵&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;简单的使用&lt;code&gt;=&lt;/code&gt;来指定变量，例如 &lt;code&gt;x=3&lt;/code&gt; 就是创建了一个名为x的 &lt;strong&gt;1-1&lt;/strong&gt; 的矩阵，并且将 3 存储在其中。&lt;/p&gt;
+&lt;p&gt;或者例如 &lt;code&gt;x = sqrt(16)&lt;/code&gt; 则是将 4 存储在其中。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Matlab" scheme="http://example.com/categories/Matlab/"/>
+    
+    
+    <category term="Matlab" scheme="http://example.com/tags/Matlab/"/>
+    
+  </entry>
   
   <entry>
     <title>图像处理-1</title>
