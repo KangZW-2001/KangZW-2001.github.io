@@ -44,20 +44,21 @@
     <link href="http://example.com/2020/12/26/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-1/"/>
     <id>http://example.com/2020/12/26/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-1/</id>
     <published>2020-12-26T14:09:34.000Z</published>
-    <updated>2020-12-26T16:27:11.143Z</updated>
+    <updated>2020-12-30T10:55:32.133Z</updated>
     
     
-      
-      
-    <summary type="html">&lt;h1 id=&quot;数字图像基础&quot;&gt;&lt;a href=&quot;#数字图像基础&quot; class=&quot;headerlink&quot; title=&quot;数字图像基础&quot;&gt;&lt;/a&gt;数字图像基础&lt;/h1&gt;&lt;h3 id=&quot;视觉感知要素&quot;&gt;&lt;a href=&quot;#视觉感知要素&quot; class=&quot;headerlink&quot; titl</summary>
-      
+    <summary type="html">&lt;h1 id=&quot;第一章-图像处理技术基础&quot;&gt;&lt;a href=&quot;#第一章-图像处理技术基础&quot; class=&quot;headerlink&quot; title=&quot;第一章 图像处理技术基础&quot;&gt;&lt;/a&gt;第一章 图像处理技术基础&lt;/h1&gt;&lt;h2 id=&quot;第一讲-位图基础&quot;&gt;&lt;a href=&quot;#第一讲-位图基础&quot; class=&quot;headerlink&quot; title=&quot;第一讲 位图基础&quot;&gt;&lt;/a&gt;第一讲 位图基础&lt;/h2&gt;&lt;h3 id=&quot;1-1-数字图像的基本概念&quot;&gt;&lt;a href=&quot;#1-1-数字图像的基本概念&quot; class=&quot;headerlink&quot; title=&quot;1.1 数字图像的基本概念&quot;&gt;&lt;/a&gt;1.1 数字图像的基本概念&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;人类约有75%的信息是通过视觉获取的，数字图像处理是用计算机处理所获取的视觉信息的技术。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;图像的颜色&lt;/strong&gt; ：色度学理论认为，任何颜色都可以由 &lt;em&gt;红、绿、蓝&lt;/em&gt; 三种基本颜色混合而成。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;​                        即 &lt;code&gt;f(x,y,z) = &amp;#123;fred(x,y,z),fgreen(x,y,z),fblue(x,y,z),&amp;#125;&lt;/code&gt;&lt;/p&gt;</summary>
     
     
     
     <category term="图像处理课程" scheme="http://example.com/categories/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%E8%AF%BE%E7%A8%8B/"/>
     
-    
-    <category term="Matlab" scheme="http://example.com/tags/Matlab/"/>
     
     <category term="课程" scheme="http://example.com/tags/%E8%AF%BE%E7%A8%8B/"/>
     
