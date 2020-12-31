@@ -1,70 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Matlab-3</title>
-    <url>/2020/12/28/Matlab-3/</url>
-    <content><![CDATA[<h1 id="Matlab变量"><a href="#Matlab变量" class="headerlink" title="Matlab变量"></a>Matlab变量</h1><blockquote>
-<p>每个Matlab变量可以是数组或者矩阵</p>
-</blockquote>
-<p>简单的使用<code>=</code>来指定变量，例如 <code>x=3</code> 就是创建了一个名为x的 <strong>1-1</strong> 的矩阵，并且将 3 存储在其中。</p>
-<p>或者例如 <code>x = sqrt(16)</code> 则是将 4 存储在其中。</p>
-<a id="more"></a>
-
-<h3 id="Matlab注意事项"><a href="#Matlab注意事项" class="headerlink" title="Matlab注意事项"></a>Matlab注意事项</h3><blockquote>
-<ol>
-<li>使用变量之前，必须进行赋值</li>
-<li>系统收到一个变量之后，这个变量可以被引用。</li>
-<li>当表达式返回一个结果，不分配给任何变量，系统就会分配一个名为ans的变量，以后可以继续使用。</li>
-</ol>
-</blockquote>
-<h3 id="Matlab可以给多个变量直接赋值"><a href="#Matlab可以给多个变量直接赋值" class="headerlink" title="Matlab可以给多个变量直接赋值"></a>Matlab可以给多个变量直接赋值</h3><p>多个任务可以在同一行，例如</p>
-<p><code>a = 2; b = 7; c = a * b</code></p>
-<p>Matlab将执行上面的语句，并返回以下结果：</p>
-<blockquote>
-<p>c = </p>
-<p>​        14</p>
-</blockquote>
-<h3 id="Matlab如何显示已经使用的变量名？"><a href="#Matlab如何显示已经使用的变量名？" class="headerlink" title="Matlab如何显示已经使用的变量名？"></a>Matlab如何显示已经使用的变量名？</h3><p>使用 <code>who</code> 命令可以显示所有已经使用的变量名。</p>
-<p>也可以使用 <code>whos</code> 命令来显示更多的和变量相关的信息：</p>
-<ol>
-<li>Name（变量名）</li>
-<li>Size （变量的大小，行数、列数等）</li>
-<li>Bytes</li>
-<li>Class</li>
-<li>Attributes</li>
-</ol>
-<p>使用 <code>clear</code> 命令删除所有的变量，或者 <code>clear var</code> 来删除指定的变量。</p>
-<h3 id="长任务"><a href="#长任务" class="headerlink" title="长任务"></a>长任务</h3><p>可以通过 <code>...</code> 来将命令延伸到下一行。</p>
-<h3 id="Matlab格式命令"><a href="#Matlab格式命令" class="headerlink" title="Matlab格式命令"></a>Matlab格式命令</h3><p>默认情况下，Matlab显示四个小数位值。也就是所谓的 <strong>short format</strong> ,如果想要更精确的话，需要使用format相关命令，例如，使用 <code>format long</code> 命令格式来显示小数点后16位。例如：</p>
-<p><img src="/2020/12/28/Matlab-3/format.PNG"></p>
-<p>也可以使用 <code>format bank</code> 来设置小数后两位的格式。</p>
-<p>同样可以使用如下命令来表示指数形式（科学计数法）的位数：</p>
-<blockquote>
-<ul>
-<li>format short e：表示指数形式显示小数后四位</li>
-<li>format long e：表示指数形式显示小数后16位</li>
-<li>format rat：可以给出最接近的有理表达式（<strong>分式形式</strong>）</li>
-</ul>
-</blockquote>
-<h3 id="Matlab创建向量"><a href="#Matlab创建向量" class="headerlink" title="Matlab创建向量"></a>Matlab创建向量</h3><blockquote>
-<p>向量是一维数组中的数字，Matlab允许创建两种类型的矢量：</p>
-<ul>
-<li>行向量</li>
-<li>列向量</li>
-</ul>
-</blockquote>
-<h4 id="1-创建行向量"><a href="#1-创建行向量" class="headerlink" title="1. 创建行向量"></a>1. 创建行向量</h4><p><code>r = [1 2 3 4 5]</code> 或者 <code>r = [1,2,3,4,5]</code> 都能得到一个 <strong>1-5</strong> 的行向量。</p>
-<h4 id="2-创建列向量"><a href="#2-创建列向量" class="headerlink" title="2. 创建列向量"></a>2. 创建列向量</h4><p><code>r = [1; 2; 3; 4; 5]</code> 可以创建一个 <strong>5-1</strong> 的列向量。</p>
-<h4 id="3-创建矩阵"><a href="#3-创建矩阵" class="headerlink" title="3. 创建矩阵"></a>3. 创建矩阵</h4><p><code>r = [1 2 3; 4 5 6; 7 8 9]</code> 会创建一个 <strong>3-3</strong> 的矩阵。其中使用空格或者逗号来区分列，使用分号来区分行。</p>
-]]></content>
-      <categories>
-        <category>Matlab</category>
-      </categories>
-      <tags>
-        <tag>Matlab</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>MatLab-1</title>
     <url>/2020/12/26/MatLab-1/</url>
     <content><![CDATA[<h1 id="Matlab介绍"><a href="#Matlab介绍" class="headerlink" title="Matlab介绍"></a>Matlab介绍</h1><h3 id="何为Matlab"><a href="#何为Matlab" class="headerlink" title="何为Matlab"></a>何为Matlab</h3><p>Matlab是由美国MathWorks公司开发的一种编程语言，其最初是一个矩阵的编程语言，使线性代数的运算变得简单。现多用于算法开发、数据可视化、数据分析等多个场景。主要包括Matlab和Simulink两部分。Matlab拥有众多的内置命令和数学函数。</p>
@@ -226,9 +162,73 @@
       </tags>
   </entry>
   <entry>
+    <title>Matlab-3</title>
+    <url>/2020/12/28/Matlab-3/</url>
+    <content><![CDATA[<h1 id="Matlab变量"><a href="#Matlab变量" class="headerlink" title="Matlab变量"></a>Matlab变量</h1><blockquote>
+<p>每个Matlab变量可以是数组或者矩阵</p>
+</blockquote>
+<p>简单的使用<code>=</code>来指定变量，例如 <code>x=3</code> 就是创建了一个名为x的 <strong>1-1</strong> 的矩阵，并且将 3 存储在其中。</p>
+<p>或者例如 <code>x = sqrt(16)</code> 则是将 4 存储在其中。</p>
+<a id="more"></a>
+
+<h3 id="Matlab注意事项"><a href="#Matlab注意事项" class="headerlink" title="Matlab注意事项"></a>Matlab注意事项</h3><blockquote>
+<ol>
+<li>使用变量之前，必须进行赋值</li>
+<li>系统收到一个变量之后，这个变量可以被引用。</li>
+<li>当表达式返回一个结果，不分配给任何变量，系统就会分配一个名为ans的变量，以后可以继续使用。</li>
+</ol>
+</blockquote>
+<h3 id="Matlab可以给多个变量直接赋值"><a href="#Matlab可以给多个变量直接赋值" class="headerlink" title="Matlab可以给多个变量直接赋值"></a>Matlab可以给多个变量直接赋值</h3><p>多个任务可以在同一行，例如</p>
+<p><code>a = 2; b = 7; c = a * b</code></p>
+<p>Matlab将执行上面的语句，并返回以下结果：</p>
+<blockquote>
+<p>c = </p>
+<p>​        14</p>
+</blockquote>
+<h3 id="Matlab如何显示已经使用的变量名？"><a href="#Matlab如何显示已经使用的变量名？" class="headerlink" title="Matlab如何显示已经使用的变量名？"></a>Matlab如何显示已经使用的变量名？</h3><p>使用 <code>who</code> 命令可以显示所有已经使用的变量名。</p>
+<p>也可以使用 <code>whos</code> 命令来显示更多的和变量相关的信息：</p>
+<ol>
+<li>Name（变量名）</li>
+<li>Size （变量的大小，行数、列数等）</li>
+<li>Bytes</li>
+<li>Class</li>
+<li>Attributes</li>
+</ol>
+<p>使用 <code>clear</code> 命令删除所有的变量，或者 <code>clear var</code> 来删除指定的变量。</p>
+<h3 id="长任务"><a href="#长任务" class="headerlink" title="长任务"></a>长任务</h3><p>可以通过 <code>...</code> 来将命令延伸到下一行。</p>
+<h3 id="Matlab格式命令"><a href="#Matlab格式命令" class="headerlink" title="Matlab格式命令"></a>Matlab格式命令</h3><p>默认情况下，Matlab显示四个小数位值。也就是所谓的 <strong>short format</strong> ,如果想要更精确的话，需要使用format相关命令，例如，使用 <code>format long</code> 命令格式来显示小数点后16位。例如：</p>
+<p><img src="/2020/12/28/Matlab-3/format.PNG"></p>
+<p>也可以使用 <code>format bank</code> 来设置小数后两位的格式。</p>
+<p>同样可以使用如下命令来表示指数形式（科学计数法）的位数：</p>
+<blockquote>
+<ul>
+<li>format short e：表示指数形式显示小数后四位</li>
+<li>format long e：表示指数形式显示小数后16位</li>
+<li>format rat：可以给出最接近的有理表达式（<strong>分式形式</strong>）</li>
+</ul>
+</blockquote>
+<h3 id="Matlab创建向量"><a href="#Matlab创建向量" class="headerlink" title="Matlab创建向量"></a>Matlab创建向量</h3><blockquote>
+<p>向量是一维数组中的数字，Matlab允许创建两种类型的矢量：</p>
+<ul>
+<li>行向量</li>
+<li>列向量</li>
+</ul>
+</blockquote>
+<h4 id="1-创建行向量"><a href="#1-创建行向量" class="headerlink" title="1. 创建行向量"></a>1. 创建行向量</h4><p><code>r = [1 2 3 4 5]</code> 或者 <code>r = [1,2,3,4,5]</code> 都能得到一个 <strong>1-5</strong> 的行向量。</p>
+<h4 id="2-创建列向量"><a href="#2-创建列向量" class="headerlink" title="2. 创建列向量"></a>2. 创建列向量</h4><p><code>r = [1; 2; 3; 4; 5]</code> 可以创建一个 <strong>5-1</strong> 的列向量。</p>
+<h4 id="3-创建矩阵"><a href="#3-创建矩阵" class="headerlink" title="3. 创建矩阵"></a>3. 创建矩阵</h4><p><code>r = [1 2 3; 4 5 6; 7 8 9]</code> 会创建一个 <strong>3-3</strong> 的矩阵。其中使用空格或者逗号来区分列，使用分号来区分行。</p>
+]]></content>
+      <categories>
+        <category>Matlab</category>
+      </categories>
+      <tags>
+        <tag>Matlab</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>图像处理-1</title>
     <url>/2020/12/26/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-1/</url>
-    <content><![CDATA[<h1 id="第一章-图像处理技术基础"><a href="#第一章-图像处理技术基础" class="headerlink" title="第一章 图像处理技术基础"></a>第一章 图像处理技术基础</h1><h2 id="第一讲-位图基础"><a href="#第一讲-位图基础" class="headerlink" title="第一讲 位图基础"></a>第一讲 位图基础</h2><h3 id="1-1-数字图像的基本概念"><a href="#1-1-数字图像的基本概念" class="headerlink" title="1.1 数字图像的基本概念"></a>1.1 数字图像的基本概念</h3><blockquote>
+    <content><![CDATA[<h1 id="第一章-图像处理技术基础"><a href="#第一章-图像处理技术基础" class="headerlink" title="第一章 图像处理技术基础"></a>第一章 图像处理技术基础</h1><h3 id="数字图像的基本概念"><a href="#数字图像的基本概念" class="headerlink" title="数字图像的基本概念"></a>数字图像的基本概念</h3><blockquote>
 <p>人类约有75%的信息是通过视觉获取的，数字图像处理是用计算机处理所获取的视觉信息的技术。</p>
 </blockquote>
 <ol>
@@ -238,10 +238,11 @@
 <a id="more"></a>
 
 <ol start="2">
-<li><strong>图形与图像的区别</strong> ：首先，图形和图像在存储结构和表示方式上有根本的区别。</li>
+<li><p><strong>图形与图像的区别</strong> ：首先，图形和图像在存储结构和表示方式上有根本的区别。</p>
+<p><strong>图形</strong> ：由指令集合组成，指令描述了位置、形状、颜色等基础信息。当需要显示时，会根据指令在屏幕上渲染出对应的形状和颜色。</p>
+<p><strong>图像</strong> ：图像本质上就是一个大矩阵。位置按照规则方式排列，坐标值是隐含的。更加直观、易懂、信息量大。</p>
+</li>
 </ol>
-<p>​        <strong>图形</strong> ：由指令集合组成，指令描述了位置、形状、颜色等基础信息。当需要显示时，会根据指令在屏幕上渲染出对应的形状和颜色。</p>
-<p>​        <strong>图像</strong> ：图像本质上就是一个大矩阵。位置按照规则方式排列，坐标值是隐含的。更加直观、易懂、信息量大。</p>
 <blockquote>
 <p>在我看来。图形就是更加规则，人为给定一些指令，例如直线、三角形、圆形等。再赋予它们各种各样的属性。归根结底是一个形状。图像更像是原本就存在，不是人为创造的，例如照相机拍出来的图像等。</p>
 </blockquote>
@@ -278,7 +279,7 @@
 </li>
 </ol>
 <hr>
-<h3 id="1-2-数字图像处理技术简介"><a href="#1-2-数字图像处理技术简介" class="headerlink" title="1.2 数字图像处理技术简介"></a>1.2 数字图像处理技术简介</h3><blockquote>
+<h3 id="数字图像处理技术简介"><a href="#数字图像处理技术简介" class="headerlink" title="数字图像处理技术简介"></a>数字图像处理技术简介</h3><blockquote>
 <p>​    图像处理技术是交叉边缘学科：是计算机、传感器、信息技术、人工智能、模式识别等的交叉学科和技术。</p>
 <p>​    利用计算机对图像进行<strong>去除噪声、增强、复原、分割、提取特征</strong>等的理论、方法和技术称为数字图像处理。</p>
 </blockquote>
@@ -360,7 +361,7 @@
 </li>
 </ol>
 <hr>
-<h3 id="1-3-数字图像处理技术的应用"><a href="#1-3-数字图像处理技术的应用" class="headerlink" title="1.3 数字图像处理技术的应用"></a>1.3 数字图像处理技术的应用</h3><p>主要有以下几个方面：</p>
+<h3 id="数字图像处理技术的应用"><a href="#数字图像处理技术的应用" class="headerlink" title="数字图像处理技术的应用"></a>数字图像处理技术的应用</h3><p>主要有以下几个方面：</p>
 <ul>
 <li>遥感航天中的应用</li>
 <li>生物医学中的应用</li>
@@ -369,7 +370,39 @@
 <li>其他应用</li>
 </ul>
 <hr>
-<h3 id="1-4-图像的存储格式"><a href="#1-4-图像的存储格式" class="headerlink" title="1.4 图像的存储格式"></a>1.4 图像的存储格式</h3>]]></content>
+<h3 id="图像的存储格式"><a href="#图像的存储格式" class="headerlink" title="图像的存储格式"></a>图像的存储格式</h3><blockquote>
+<p>按照颜色深度分类，常用的图像分为：<br>    <strong>黑白图像</strong></p>
+<p>​    <strong>8位索引图像</strong>：（包括8位灰度图像和伪彩色图像）</p>
+<p>​    <strong>24位真彩色图像</strong></p>
+</blockquote>
+<ol>
+<li><p><strong>单色图像</strong></p>
+<p>矩阵中的每一个像素值非黑即白（非0即1），因为只有一个二进制位，所以只能表达两种颜色（黑和白）。通过黑和白来表示图像。</p>
+</li>
+<li><p><strong>8位索引图像</strong></p>
+<p>矩阵中的数值通过8个二进制位表示，即范围是0到255共256个数值。这些数值只是一个索引号，通过索引号去颜色表（调色板）中寻找到对应的颜色值（R、G、B值）</p>
+<blockquote>
+<p>8位索引图像包括：8位灰度索引图像、8位伪彩色索引图像。</p>
+<p>​    8位<strong>灰度</strong>索引图象的颜色表中的每一个<strong>R、G、B分量值都相等</strong>。就是将从黑到白细分为256层，整个图像呈现灰色。而且矩阵中的索引值就可以体现出灰度的等级。</p>
+<p>​    8位<strong>伪彩色</strong>索引图象的颜色表中的每一个<strong>R、G、B分量值不一定相等</strong>。总共可以表示256个颜色，整体呈现为彩色，但是不够细腻。</p>
+</blockquote>
+</li>
+<li><p><strong>24位真彩色图像</strong></p>
+<ul>
+<li>每一个像素由R、G、B三个分量组成。</li>
+<li>每个分量各占8位，取值都为0~255，每一个像素有24位。（相比于上述8位索引图象，不带颜色表）</li>
+</ul>
+<blockquote>
+<p>总共可以表示 256 * 256 * 256 个颜色。颜色表达更加细腻。</p>
+</blockquote>
+</li>
+<li><p><strong>图像显示流程图</strong></p>
+<p><img src="/2020/12/26/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-1/%E5%9B%BE%E5%83%8F%E6%98%BE%E7%A4%BA%E6%B5%81%E7%A8%8B%E5%9B%BE.png"></p>
+</li>
+<li><p><strong>图像文件格式</strong></p>
+</li>
+</ol>
+]]></content>
       <categories>
         <category>图像处理课程</category>
       </categories>

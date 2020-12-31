@@ -20,12 +20,12 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="第一章 图像处理技术基础第一讲 位图基础1.1 数字图像的基本概念 人类约有75%的信息是通过视觉获取的，数字图像处理是用计算机处理所获取的视觉信息的技术。   图像的颜色 ：色度学理论认为，任何颜色都可以由 红、绿、蓝 三种基本颜色混合而成。  ​                        即 f(x,y,z) &#x3D; &amp;#123;fred(x,y,z),fgreen(x,y,z),fblue(">
+  <meta name="description" content="第一章 图像处理技术基础数字图像的基本概念 人类约有75%的信息是通过视觉获取的，数字图像处理是用计算机处理所获取的视觉信息的技术。   图像的颜色 ：色度学理论认为，任何颜色都可以由 红、绿、蓝 三种基本颜色混合而成。  ​                        即 f(x,y,z) &#x3D; &amp;#123;fred(x,y,z),fgreen(x,y,z),fblue(x,y,z),&amp;#125">
 <meta property="og:type" content="article">
 <meta property="og:title" content="图像处理-1">
 <meta property="og:url" content="http://example.com/2020/12/26/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-1/index.html">
 <meta property="og:site_name" content="KangZW&#39;s Blog">
-<meta property="og:description" content="第一章 图像处理技术基础第一讲 位图基础1.1 数字图像的基本概念 人类约有75%的信息是通过视觉获取的，数字图像处理是用计算机处理所获取的视觉信息的技术。   图像的颜色 ：色度学理论认为，任何颜色都可以由 红、绿、蓝 三种基本颜色混合而成。  ​                        即 f(x,y,z) &#x3D; &amp;#123;fred(x,y,z),fgreen(x,y,z),fblue(">
+<meta property="og:description" content="第一章 图像处理技术基础数字图像的基本概念 人类约有75%的信息是通过视觉获取的，数字图像处理是用计算机处理所获取的视觉信息的技术。   图像的颜色 ：色度学理论认为，任何颜色都可以由 红、绿、蓝 三种基本颜色混合而成。  ​                        即 f(x,y,z) &#x3D; &amp;#123;fred(x,y,z),fgreen(x,y,z),fblue(x,y,z),&amp;#125">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/2020/12/26/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-1/KongJian.png">
 <meta property="og:image" content="http://example.com/2020/12/26/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-1/HuiDuJi.png">
@@ -33,8 +33,9 @@
 <meta property="og:image" content="http://example.com/2020/12/26/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-1/%E4%B8%80%E8%88%AC%E7%9A%84%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%E8%BF%87%E7%A8%8B.png">
 <meta property="og:image" content="http://example.com/2020/12/26/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-1/%E5%9B%BE%E5%83%8F%E5%A4%8D%E5%8E%9F.png">
 <meta property="og:image" content="http://example.com/2020/12/26/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-1/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%E6%B5%81%E7%A8%8B.png">
+<meta property="og:image" content="http://example.com/2020/12/26/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-1/%E5%9B%BE%E5%83%8F%E6%98%BE%E7%A4%BA%E6%B5%81%E7%A8%8B%E5%9B%BE.png">
 <meta property="article:published_time" content="2020-12-26T14:09:34.000Z">
-<meta property="article:modified_time" content="2020-12-30T10:55:32.133Z">
+<meta property="article:modified_time" content="2020-12-31T06:13:41.404Z">
 <meta property="article:author" content="康子文">
 <meta property="article:tag" content="课程">
 <meta name="twitter:card" content="summary">
@@ -233,7 +234,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-12-30 18:55:32" itemprop="dateModified" datetime="2020-12-30T18:55:32+08:00">2020-12-30</time>
+                <time title="修改时间：2020-12-31 14:13:41" itemprop="dateModified" datetime="2020-12-31T14:13:41+08:00">2020-12-31</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -256,7 +257,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1 id="第一章-图像处理技术基础"><a href="#第一章-图像处理技术基础" class="headerlink" title="第一章 图像处理技术基础"></a>第一章 图像处理技术基础</h1><h2 id="第一讲-位图基础"><a href="#第一讲-位图基础" class="headerlink" title="第一讲 位图基础"></a>第一讲 位图基础</h2><h3 id="1-1-数字图像的基本概念"><a href="#1-1-数字图像的基本概念" class="headerlink" title="1.1 数字图像的基本概念"></a>1.1 数字图像的基本概念</h3><blockquote>
+        <h1 id="第一章-图像处理技术基础"><a href="#第一章-图像处理技术基础" class="headerlink" title="第一章 图像处理技术基础"></a>第一章 图像处理技术基础</h1><h3 id="数字图像的基本概念"><a href="#数字图像的基本概念" class="headerlink" title="数字图像的基本概念"></a>数字图像的基本概念</h3><blockquote>
 <p>人类约有75%的信息是通过视觉获取的，数字图像处理是用计算机处理所获取的视觉信息的技术。</p>
 </blockquote>
 <ol>
@@ -266,10 +267,11 @@
 <a id="more"></a>
 
 <ol start="2">
-<li><strong>图形与图像的区别</strong> ：首先，图形和图像在存储结构和表示方式上有根本的区别。</li>
+<li><p><strong>图形与图像的区别</strong> ：首先，图形和图像在存储结构和表示方式上有根本的区别。</p>
+<p><strong>图形</strong> ：由指令集合组成，指令描述了位置、形状、颜色等基础信息。当需要显示时，会根据指令在屏幕上渲染出对应的形状和颜色。</p>
+<p><strong>图像</strong> ：图像本质上就是一个大矩阵。位置按照规则方式排列，坐标值是隐含的。更加直观、易懂、信息量大。</p>
+</li>
 </ol>
-<p>​        <strong>图形</strong> ：由指令集合组成，指令描述了位置、形状、颜色等基础信息。当需要显示时，会根据指令在屏幕上渲染出对应的形状和颜色。</p>
-<p>​        <strong>图像</strong> ：图像本质上就是一个大矩阵。位置按照规则方式排列，坐标值是隐含的。更加直观、易懂、信息量大。</p>
 <blockquote>
 <p>在我看来。图形就是更加规则，人为给定一些指令，例如直线、三角形、圆形等。再赋予它们各种各样的属性。归根结底是一个形状。图像更像是原本就存在，不是人为创造的，例如照相机拍出来的图像等。</p>
 </blockquote>
@@ -306,7 +308,7 @@
 </li>
 </ol>
 <hr>
-<h3 id="1-2-数字图像处理技术简介"><a href="#1-2-数字图像处理技术简介" class="headerlink" title="1.2 数字图像处理技术简介"></a>1.2 数字图像处理技术简介</h3><blockquote>
+<h3 id="数字图像处理技术简介"><a href="#数字图像处理技术简介" class="headerlink" title="数字图像处理技术简介"></a>数字图像处理技术简介</h3><blockquote>
 <p>​    图像处理技术是交叉边缘学科：是计算机、传感器、信息技术、人工智能、模式识别等的交叉学科和技术。</p>
 <p>​    利用计算机对图像进行<strong>去除噪声、增强、复原、分割、提取特征</strong>等的理论、方法和技术称为数字图像处理。</p>
 </blockquote>
@@ -388,7 +390,7 @@
 </li>
 </ol>
 <hr>
-<h3 id="1-3-数字图像处理技术的应用"><a href="#1-3-数字图像处理技术的应用" class="headerlink" title="1.3 数字图像处理技术的应用"></a>1.3 数字图像处理技术的应用</h3><p>主要有以下几个方面：</p>
+<h3 id="数字图像处理技术的应用"><a href="#数字图像处理技术的应用" class="headerlink" title="数字图像处理技术的应用"></a>数字图像处理技术的应用</h3><p>主要有以下几个方面：</p>
 <ul>
 <li>遥感航天中的应用</li>
 <li>生物医学中的应用</li>
@@ -397,7 +399,39 @@
 <li>其他应用</li>
 </ul>
 <hr>
-<h3 id="1-4-图像的存储格式"><a href="#1-4-图像的存储格式" class="headerlink" title="1.4 图像的存储格式"></a>1.4 图像的存储格式</h3>
+<h3 id="图像的存储格式"><a href="#图像的存储格式" class="headerlink" title="图像的存储格式"></a>图像的存储格式</h3><blockquote>
+<p>按照颜色深度分类，常用的图像分为：<br>    <strong>黑白图像</strong></p>
+<p>​    <strong>8位索引图像</strong>：（包括8位灰度图像和伪彩色图像）</p>
+<p>​    <strong>24位真彩色图像</strong></p>
+</blockquote>
+<ol>
+<li><p><strong>单色图像</strong></p>
+<p>矩阵中的每一个像素值非黑即白（非0即1），因为只有一个二进制位，所以只能表达两种颜色（黑和白）。通过黑和白来表示图像。</p>
+</li>
+<li><p><strong>8位索引图像</strong></p>
+<p>矩阵中的数值通过8个二进制位表示，即范围是0到255共256个数值。这些数值只是一个索引号，通过索引号去颜色表（调色板）中寻找到对应的颜色值（R、G、B值）</p>
+<blockquote>
+<p>8位索引图像包括：8位灰度索引图像、8位伪彩色索引图像。</p>
+<p>​    8位<strong>灰度</strong>索引图象的颜色表中的每一个<strong>R、G、B分量值都相等</strong>。就是将从黑到白细分为256层，整个图像呈现灰色。而且矩阵中的索引值就可以体现出灰度的等级。</p>
+<p>​    8位<strong>伪彩色</strong>索引图象的颜色表中的每一个<strong>R、G、B分量值不一定相等</strong>。总共可以表示256个颜色，整体呈现为彩色，但是不够细腻。</p>
+</blockquote>
+</li>
+<li><p><strong>24位真彩色图像</strong></p>
+<ul>
+<li>每一个像素由R、G、B三个分量组成。</li>
+<li>每个分量各占8位，取值都为0~255，每一个像素有24位。（相比于上述8位索引图象，不带颜色表）</li>
+</ul>
+<blockquote>
+<p>总共可以表示 256 * 256 * 256 个颜色。颜色表达更加细腻。</p>
+</blockquote>
+</li>
+<li><p><strong>图像显示流程图</strong></p>
+<p><img src="/2020/12/26/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-1/%E5%9B%BE%E5%83%8F%E6%98%BE%E7%A4%BA%E6%B5%81%E7%A8%8B%E5%9B%BE.png"></p>
+</li>
+<li><p><strong>图像文件格式</strong></p>
+</li>
+</ol>
+
     </div>
 
     
@@ -480,7 +514,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E7%AB%A0-%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80"><span class="nav-number">1.</span> <span class="nav-text">第一章 图像处理技术基础</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E8%AE%B2-%E4%BD%8D%E5%9B%BE%E5%9F%BA%E7%A1%80"><span class="nav-number">1.1.</span> <span class="nav-text">第一讲 位图基础</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-1-%E6%95%B0%E5%AD%97%E5%9B%BE%E5%83%8F%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="nav-number">1.1.1.</span> <span class="nav-text">1.1 数字图像的基本概念</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-2-%E6%95%B0%E5%AD%97%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E7%AE%80%E4%BB%8B"><span class="nav-number">1.1.2.</span> <span class="nav-text">1.2 数字图像处理技术简介</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-3-%E6%95%B0%E5%AD%97%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E7%9A%84%E5%BA%94%E7%94%A8"><span class="nav-number">1.1.3.</span> <span class="nav-text">1.3 数字图像处理技术的应用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-4-%E5%9B%BE%E5%83%8F%E7%9A%84%E5%AD%98%E5%82%A8%E6%A0%BC%E5%BC%8F"><span class="nav-number">1.1.4.</span> <span class="nav-text">1.4 图像的存储格式</span></a></li></ol></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E7%AB%A0-%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80"><span class="nav-number">1.</span> <span class="nav-text">第一章 图像处理技术基础</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B0%E5%AD%97%E5%9B%BE%E5%83%8F%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="nav-number">1.0.1.</span> <span class="nav-text">数字图像的基本概念</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B0%E5%AD%97%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E7%AE%80%E4%BB%8B"><span class="nav-number">1.0.2.</span> <span class="nav-text">数字图像处理技术简介</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B0%E5%AD%97%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E7%9A%84%E5%BA%94%E7%94%A8"><span class="nav-number">1.0.3.</span> <span class="nav-text">数字图像处理技术的应用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9B%BE%E5%83%8F%E7%9A%84%E5%AD%98%E5%82%A8%E6%A0%BC%E5%BC%8F"><span class="nav-number">1.0.4.</span> <span class="nav-text">图像的存储格式</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
