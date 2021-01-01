@@ -398,8 +398,167 @@
 </li>
 <li><p><strong>图像显示流程图</strong></p>
 <p><img src="/2020/12/26/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-1/%E5%9B%BE%E5%83%8F%E6%98%BE%E7%A4%BA%E6%B5%81%E7%A8%8B%E5%9B%BE.png"></p>
+<p>如果带有颜色表，则说明是8位索引图象（无论是索引灰度图像还是伪彩色图像）。相反，如果不带有颜色表，则是真彩色图像。</p>
 </li>
 <li><p><strong>图像文件格式</strong></p>
+<ul>
+<li>BMP(BitMap)格式</li>
+<li>Gif格式<br>是一种图像交换格式，可提供压缩功能，但只支持256色，很少用于照片级图像处理工作。在PhotoShop中把对颜色数要求不高的图片变为索引色，再以GIF格式保存，使文件缩小后用更快的速度在网上传输.一般用于动态格式的图片存储。</li>
+<li>Tiff格式<br>TIF文件的设计考虑了扩展性、方便性和可修改性，是最复杂的一种。要求用更多的代码来控制它，结果导致文件读写速度慢，代码长。</li>
+<li>JPEG格式<br>是一种较常用的有损压缩方案，常用来压缩存储批量图片（压缩比达20倍），我们在相应程序中以”jpg”存储时，会进一步询问使用哪档图像品质来压缩，而在图形程序中打开时会自动解压。JPEG全部名称为：Joint photographic exptrs group。尽管它是一种主流格式，在需要输出高质量图像时不使用JPG 而应选EPS格式或TIF格式，特别是在以JPG格式进行图形编辑时，不要经常进行保存操作。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 id="BMP文件存储格式"><a href="#BMP文件存储格式" class="headerlink" title="BMP文件存储格式"></a>BMP文件存储格式</h3><blockquote>
+<p>BMP文件组成：由四部分组成，分别是：<br>    <strong>BMP文件头（BITMAPFILEHEADER）</strong></p>
+<p>​    <strong>位图文件头（BITMAPINFOHEADER）</strong></p>
+<p>​    <strong>颜色表（RGBQUAD）</strong></p>
+<p>​    <strong>位图数据</strong></p>
+</blockquote>
+<ol>
+<li><p><strong>BMP文件头</strong></p>
+<table>
+<thead>
+<tr>
+<th align="center">名称</th>
+<th align="center">大小（字节数）</th>
+<th align="center">作用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">bfType</td>
+<td align="center">2</td>
+<td align="center">文件的标识符，如果为“BM”的话说明该文件是BitMap文件</td>
+</tr>
+<tr>
+<td align="center">bfSize</td>
+<td align="center">4</td>
+<td align="center">整个文件的大小</td>
+</tr>
+<tr>
+<td align="center">bfReserved1</td>
+<td align="center">2</td>
+<td align="center">保留字1</td>
+</tr>
+<tr>
+<td align="center">bfReserved2</td>
+<td align="center">2</td>
+<td align="center">保留字2</td>
+</tr>
+<tr>
+<td align="center">bfOffBits</td>
+<td align="center">4</td>
+<td align="center">位图数据区的起始位置（偏移量）</td>
+</tr>
+</tbody></table>
+</li>
+<li><p><strong>位图信息头</strong><br>和图像相关的信息。</p>
+<table>
+<thead>
+<tr>
+<th align="center">名称</th>
+<th align="center">大小（字节数）</th>
+<th align="center">作用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">biSize</td>
+<td align="center">4</td>
+<td align="center">本结构的大小，40个字节</td>
+</tr>
+<tr>
+<td align="center">biWidth</td>
+<td align="center">4</td>
+<td align="center">图的宽度（像素数）</td>
+</tr>
+<tr>
+<td align="center">biHeight</td>
+<td align="center">2</td>
+<td align="center">图的高度（像素数）</td>
+</tr>
+<tr>
+<td align="center">biPlanes</td>
+<td align="center">2</td>
+<td align="center">位平面数，一般为1</td>
+</tr>
+<tr>
+<td align="center">biBitCount</td>
+<td align="center">4</td>
+<td align="center">每个像素的位数（1、8、24等）</td>
+</tr>
+<tr>
+<td align="center">biCompression</td>
+<td align="center">4</td>
+<td align="center">位图压缩类型，不压缩为0</td>
+</tr>
+<tr>
+<td align="center">biSizeImage</td>
+<td align="center">4</td>
+<td align="center">位图大小</td>
+</tr>
+<tr>
+<td align="center">biXpelsPerMeter</td>
+<td align="center">4</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">biXpelsPerMeter</td>
+<td align="center">4</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">biClrUsed</td>
+<td align="center">4</td>
+<td align="center">颜色数，如果自定义了颜色数则不是0</td>
+</tr>
+<tr>
+<td align="center">biClrImportant</td>
+<td align="center">4</td>
+<td align="center">一般也为0</td>
+</tr>
+</tbody></table>
+</li>
+<li><p><strong>颜色表</strong></p>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>大小（字节数）</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>rgbBlue</td>
+<td>1</td>
+<td>蓝色</td>
+</tr>
+<tr>
+<td>rgbGreen</td>
+<td>1</td>
+<td>绿色</td>
+</tr>
+<tr>
+<td>rgbRed</td>
+<td>1</td>
+<td>红色</td>
+</tr>
+<tr>
+<td>rgbReserved</td>
+<td>1</td>
+<td>保留字</td>
+</tr>
+</tbody></table>
+</li>
+<li><p><strong>BITMAPINFO</strong></p>
+<blockquote>
+<p>经常把<strong>BITMAPINFOHEADER</strong>和颜色表的第一个位置结合到一起，称为BITMAPINFO。以供后续使用。</p>
+</blockquote>
+</li>
+<li><p><strong>文件打开流程和图像显示流程</strong></p>
+<p>文件打开流程图：<br><img src="/2020/12/26/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-1/%E6%96%87%E4%BB%B6%E6%89%93%E5%BC%80%E6%B5%81%E7%A8%8B%E5%9B%BE.png"></p>
+<p>图像显示流程图</p>
+<p><img src="/2020/12/26/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86-1/%E5%9B%BE%E5%83%8F%E6%98%BE%E7%A4%BA%E6%B5%81%E7%A8%8B%E5%9B%BE2.png"></p>
 </li>
 </ol>
 ]]></content>
