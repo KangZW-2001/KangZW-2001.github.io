@@ -20,20 +20,20 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="即使担心会失败，也要做个勇士。勇士就是死，也不会后退。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Matlab">
-<meta property="og:url" content="http://example.com/tags/Matlab.html">
+  <meta name="description" content="1. 概念什么是光流？​    光流是空间运动物体在观察成像平面上像素运动的瞬时速度。​    光流法是利用图像序列中像素在时间域上的变化以及相邻帧之间的相关性来找到上一帧跟当前帧之间存在的对应关系，从而计算出相邻帧之间物体运动信息的一种方法。​    通常将二维图像平面特定坐标点上的灰度瞬时变化率定义为光流矢量。 ​    所谓光流就是瞬时速率，在时间间隔很小时（视频的前后两帧之间），等同于目标">
+<meta property="og:type" content="article">
+<meta property="og:title" content="光流法">
+<meta property="og:url" content="http://example.com/2021/04/02/%E5%85%89%E6%B5%81%E6%B3%95/index.html">
 <meta property="og:site_name" content="KangZW&#39;s Blog">
-<meta property="og:description" content="即使担心会失败，也要做个勇士。勇士就是死，也不会后退。">
+<meta property="og:description" content="1. 概念什么是光流？​    光流是空间运动物体在观察成像平面上像素运动的瞬时速度。​    光流法是利用图像序列中像素在时间域上的变化以及相邻帧之间的相关性来找到上一帧跟当前帧之间存在的对应关系，从而计算出相邻帧之间物体运动信息的一种方法。​    通常将二维图像平面特定坐标点上的灰度瞬时变化率定义为光流矢量。 ​    所谓光流就是瞬时速率，在时间间隔很小时（视频的前后两帧之间），等同于目标">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-12-25T15:05:02.000Z">
-<meta property="article:modified_time" content="2020-12-25T15:05:21.547Z">
+<meta property="article:published_time" content="2021-04-02T03:41:32.000Z">
+<meta property="article:modified_time" content="2021-04-02T13:47:10.187Z">
 <meta property="article:author" content="康子文">
-<meta property="article:tag" content="study">
+<meta property="article:tag" content="课程">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/tags/Matlab">
+<link rel="canonical" href="http://example.com/2021/04/02/%E5%85%89%E6%B5%81%E6%B3%95/">
 
 
 <script id="page-configurations">
@@ -41,13 +41,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>Matlab | KangZW's Blog
-</title>
+  <title>光流法 | KangZW's Blog</title>
   
 
 
@@ -189,51 +188,91 @@
       <div class="main-inner">
         <div class="content-wrap">
           
-  
-  
 
-          <div class="content page posts-expand">
+          <div class="content post posts-expand">
             
 
     
-    
-    
-    <div class="post-block" lang="zh-CN">
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/04/02/%E5%85%89%E6%B5%81%E6%B3%95/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="康子文">
+      <meta itemprop="description" content="即使担心会失败，也要做个勇士。勇士就是死，也不会后退。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="KangZW's Blog">
+    </span>
       <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          光流法
+        </h1>
 
-<h1 class="post-title" itemprop="name headline">Matlab
-</h1>
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
 
-<div class="post-meta">
+              <time title="创建时间：2021-04-02 11:41:32 / 修改时间：21:47:10" itemprop="dateCreated datePublished" datetime="2021-04-02T11:41:32+08:00">2021-04-02</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h2 id="1-概念"><a href="#1-概念" class="headerlink" title="1. 概念"></a>1. 概念</h2><h4 id="什么是光流？"><a href="#什么是光流？" class="headerlink" title="什么是光流？"></a>什么是光流？</h4><p>​    光流是空间运动物体在观察成像平面上像素运动的瞬时速度。<br>​    光流法是利用图像序列中像素在时间域上的变化以及相邻帧之间的相关性来找到上一帧跟当前帧之间存在的对应关系，从而计算出相邻帧之间物体运动信息的一种方法。<br>​    通常将二维图像平面特定坐标点上的<strong>灰度瞬时变化率</strong>定义为光流矢量。</p>
+<p>​    <em>所谓光流就是瞬时速率，在时间间隔很小时（视频的前后两帧之间），等同于目标点的位移</em></p>
+<h4 id="光流的物理意义"><a href="#光流的物理意义" class="headerlink" title="光流的物理意义"></a>光流的物理意义</h4><p>​    一般而言，光流是由于场景中前景目标本身的运动、相机的运动，或者两者的共同运动所产生的。<br>​    当人的眼睛观察运动物体时，物体的景象在人眼的视网膜上形成一系列连续变化的图像，这一系列连续变化的信息不断“流过”视网膜（即图像平面），好像一种光的“流”，故称之为光流。光流表达了图像的变化，由于它包含了目标运动的信息，因此可被观察者用来确定目标的运动情况。</p>
+<h4 id="光流场"><a href="#光流场" class="headerlink" title="光流场"></a>光流场</h4><p>​    在空间中，运动可以用运动场描述，而在一个图像平面上，物体的运动往往是通过图像序列中不同图像灰度分布的不同体现的，从而，空间中的运动场转移到图像上就表示为光流场（optical flow field）。<br>​    光流场是一个二维矢量场，它反映了图像上每一点的灰度变化趋势，可看成是带有灰度的像素点在图像平面上运动而产生的瞬时速度场。它包含的信息即是各像点的瞬时运动速度矢量信息。<br>​    研究光流场的目的是为了从图像序列中近似计算不能直接得到的运动场。光流场在理想情况下，对应于运动场。<br>​    简单概括为：<br>​    <em>1. 所谓光流场就是很多光流的集合</em><br>​    <em>2. 当我们计算出了一幅图片中每个图像的光流，就能形成光流场</em><br>​    <em>3. 构建光流场是试图重现现实世界中的运动场，用于运动分析</em></p>
+<h2 id="2-光流法基本原理"><a href="#2-光流法基本原理" class="headerlink" title="2.光流法基本原理"></a>2.光流法基本原理</h2><h4 id="基本假设条件"><a href="#基本假设条件" class="headerlink" title="基本假设条件"></a>基本假设条件</h4><pre><code>* *亮度恒定不变*，即同一目标在不同帧间运动时，其亮度不会发生改变。这是基本光流法的假定（所有光流法变种都必须满足），用于得到光流法基本方程；
+* *时间连续或运动是“小运动”*。即时间的变化不会引起目标位置的剧烈变化，相邻帧之间位移要比较小。同样也是光流法不可或缺的假定。</code></pre>
+<h4 id="基本约束方程"><a href="#基本约束方程" class="headerlink" title="基本约束方程"></a>基本约束方程</h4>
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E8%AF%BE%E7%A8%8B/" rel="tag"># 课程</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/03/31/Canny%E7%AE%97%E6%B3%95/" rel="prev" title="Canny算法">
+      <i class="fa fa-chevron-left"></i> Canny算法
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2021/04/12/%E5%8F%AF%E8%A7%86%E5%8C%96%E5%AE%9E%E9%AA%8C1/" rel="next" title="可视化实验1">
+      可视化实验1 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
-</div>
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
-          <div class="tag-cloud">
-            <div class="tag-cloud-title">
-              目前共计 1 个标签
-            </div>
-            <div class="tag-cloud-tags">
-              <a href="/tags/%E8%AF%BE%E7%A8%8B/" style="font-size: 12px; color: #ccc">课程</a>
-            </div>
-          </div>
-        
-      </div>
-      
-      
-      
-    </div>
-    
-
-    
-    
-    
 
 
           </div>
@@ -284,6 +323,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E6%A6%82%E5%BF%B5"><span class="nav-number">1.</span> <span class="nav-text">1. 概念</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E5%85%89%E6%B5%81%EF%BC%9F"><span class="nav-number">1.0.1.</span> <span class="nav-text">什么是光流？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%89%E6%B5%81%E7%9A%84%E7%89%A9%E7%90%86%E6%84%8F%E4%B9%89"><span class="nav-number">1.0.2.</span> <span class="nav-text">光流的物理意义</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%89%E6%B5%81%E5%9C%BA"><span class="nav-number">1.0.3.</span> <span class="nav-text">光流场</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E5%85%89%E6%B5%81%E6%B3%95%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86"><span class="nav-number">2.</span> <span class="nav-text">2.光流法基本原理</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E5%81%87%E8%AE%BE%E6%9D%A1%E4%BB%B6"><span class="nav-number">2.0.1.</span> <span class="nav-text">基本假设条件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E7%BA%A6%E6%9D%9F%E6%96%B9%E7%A8%8B"><span class="nav-number">2.0.2.</span> <span class="nav-text">基本约束方程</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
